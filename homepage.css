@@ -1,0 +1,345 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+img {
+	max-width: 100%
+}
+
+body {
+	background-color: hsla(204, 11%, 11%, 1);
+}
+
+.container-fluid {
+	max-width: 90%;
+}
+
+.background-color {
+  background-color: hsla(204, 0%, 18%, 1);
+   /* background-image: 
+    repeating-linear-gradient(
+      45deg,
+      #eee,
+      #ccc 50px
+    ); */
+  width: 100%;
+
+}
+ 
+ .navbar {
+ 	margin-bottom: 0;
+ }
+
+.hello{
+	font-size: 7em;
+	margin:15% 0;
+	color: white;
+}
+
+.aspiring {
+	font-size: 5em;
+	margin-bottom:5%;
+	color: white;
+}
+
+.fire-container{
+  position:relative;
+  width: 100%;
+    height: 1000px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.water-middle-left{
+  position:absolute;
+  top:0;
+  left:0;
+    width: 100%;
+    height: 100%;
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/d/df/Ocean_surface_wave.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+-webkit-clip-path: polygon(100% 0, 52% 0, 0 57%, 0 100%);
+clip-path: polygon(100% 0, 52% 0, 0 57%, 0 100%);
+}
+
+.earth-middle-right{
+  position:absolute;
+  left:0;
+  bottom:0;  
+  width: 100%;
+    height: 100%;
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/6/65/Posts_Brook_from_Norvin_Green_State_Forest_Lower_Trail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ -webkit-clip-path: polygon(100% 0, 100% 53%, 50% 100%, 0 100%);
+clip-path: polygon(100% 0, 100% 53%, 50% 100%, 0 100%);
+}
+
+.air-right{
+  position:absolute;
+  left:0;
+  bottom:0;
+  width: 100%;
+    height: 100%;
+  background-image:url(https://theprestemons.files.wordpress.com/2014/03/bahia-honda-1-043.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
+clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
+}
+
+
+.selfie {
+	border-radius: 50%;
+	position: relative;
+	top: -105px;
+}
+
+#story {
+	color: hsla(254, 51%, 95%, 1);
+	padding-bottom: 20px;
+	border-bottom: 3px solid hsla(254, 51%, 95%, 1);
+}
+
+.story {
+	margin-bottom: 10%;
+}
+
+.my-story {
+	min-height: 200px;
+}
+
+.glyphicon {
+	font-size: 50px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+
+.story-list {
+	background-color: hsla(204, 51%, 33%, 1);
+	color: hsla(254, 51%, 95%, 1);	
+	margin: 0 auto;
+}
+
+.story-list li {
+   min-height: 225px;
+}
+
+.about-me {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Thunderstorm_003.jpg);
+	background-repeat: no-repeat;
+	background-position: 20% 100px;
+	background-size: 650px;
+	height: 650px;
+}
+
+.about-me-info {
+	background-color: white;
+	margin-top: 225px;
+	margin-bottom: 0;
+	color: hsla(204, 51%, 33%, 1);
+}
+
+.exp {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/Pine_forest_in_Estonia.jpg);
+	background-repeat: no-repeat;
+	background-position: 80% 50px;
+	background-size: 650px;
+	height: 600px;
+}
+
+.exp-info {
+	background-color: white;
+	margin-top: 175px;
+	color: hsla(204, 51%, 33%, 1);
+}
+
+.passion {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 800px;
+	height: 600px;
+	margin-top: 50px; 
+}
+
+.passion-info {
+	background-color: white;
+	margin-top: 300px;
+	color: hsla(204, 51%, 33%, 1);
+}
+
+#pic-board {
+	margin-bottom: 10%;
+}
+#pic-board img {
+	padding: 0;
+	display: block;
+	float: left;
+}
+
+
+.story-list-2 {
+	background-color: hsla(204, 51%, 33%, 1);
+	color: hsla(254, 51%, 95%, 1);	
+	margin-bottom: 10%;
+}
+
+.pic-board-row2 {
+	margin-top: -16%;
+}
+
+.story-list-3 {
+	background-color: hsla(204, 51%, 33%, 1);
+	color: hsla(254, 51%, 95%, 1);	
+	margin-bottom: 0%;
+}
+
+
+.contact-background {
+	background-image: url(http://tedandpamela.com/wp-content/uploads/2012/08/Mountain-Trail-in-the-Japan-Alps.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width:100%;
+	  height: 800px;
+	display: block;
+}
+
+.contact {
+	color: hsla(254, 51%, 95%, 1);
+	padding-top:35%;
+}
+
+.btn-primary {
+	background-color: hsla(204, 51%, 33%, 1);
+}
+
+.footer {
+	margin-top: 3%;
+}
+
+.footer h3 {
+	margin-top: 0;
+	color: hsla(254, 51%, 95%, 1);
+}
+
+.footer p{
+	color: hsla(254, 51%, 95%, 1);
+}
+
+.footer a{
+	text-decoration: none;
+	color: hsla(254, 51%, 95%, 1);
+}
+
+.footer a:hover{
+	color: hsla(204, 0%, 35%, 1);
+}
+
+.footer-contact li {
+	color: hsla(254, 51%, 95%, 1);
+}
+
+
+.copywrite p{
+	font-size: .75em;
+}
+
+.end {
+	width: 103%
+	  height:250px;
+	background-color: hsla(204, 51%, 33%, 1);
+	
+}
+
+
+@media only screen and (max-width: 992px) {
+	.pic-board-row2 {
+  	margin-top: 0;
+  }
+
+  .pic-group-1 {
+  	width: 100%;
+  }
+
+  .pic-group-2 {
+  	width: 100%;
+  	display: block;
+  	float: left;
+  }
+}
+
+@media only screen and (max-width: 768px){
+	h3 {
+		font-size: 3em;
+	}
+
+	.story-list li {
+		margin-bottom: 5%;
+	}
+  
+   p {
+  	font-size: 1.25em;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .hello{
+	font-size: 5em;
+}
+
+.aspiring {
+	font-size: 3em;
+	margin-bottom:5%;
+	color: white;
+}
+
+.fire-container {
+	height: 800px;
+}
+
+.selfie {
+	top: -80px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+	.selfie {
+	top: -50px;
+}
+}
+
+/*  Fifth Element Page */
+
+.fifth-element {
+	background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/11081283_2953387591769_116069978463568782_n.jpg?oh=94ea5eae99c61f541c4d9624e90a6dc2&oe=5944B434);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+    height: 1000px;
+}
+
+.fifth-element-info {
+	margin-top: 850px;
+	color: hsla(254, 51%, 95%, 1)
+}
+
+@media only screen and (max-width: 470px) {
+	
+	.fifth-element-info h2{
+		font-size: 3em;
+	}
+}
