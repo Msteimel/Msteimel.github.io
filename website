@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+  <html> 
+    <head>
+      <meta charset="utf-8">
+      <title>Mitch Steimel Homepage</title>
+
+      <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="/Users/mitch/Documents/HTML and CSS/My website/Css/Alpha.css">
+    </head>
+    
+    <body>
+
+     <nav class="navbar navbar-inverse navbar-static-top">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <a class="navbar-brand" href="mailto:mitch.steimel@gmail.com">Mitch Steimel</a>
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span> 
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+         </div>
+         
+         <ul class="nav navbar-nav navbar-right collapse navbar-collapse text-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#story">My Story</a></li>
+            <li><a href="#the-elements">Elements</a></li>
+            <li><a href="/Users/mitch/Documents/HTML and CSS/My website/5th-element.html" target="_blank">5th Element</a></li>
+            <li><a href="#get-in-touch">Contact</a></li>
+         </ul>
+       </div>
+     </nav>
+
+    
+       <div class="fire-container">
+          <div class="container">
+             <div class="row">
+               <h1 class="hello col-md-12 text-center">Hello,<br> I'm Mitch Steimel</h1>
+             </div>
+             <div class="row">
+               <h2 class="aspiring col-md-12 text-center">An Aspiring Web Developer</h2>
+             </div> 
+          </div>
+
+         <div class="water-middle-left">
+           <div class="container">
+             <div class="row">
+               <h1 class="hello col-md-12 text-center">Hello,<br> I'm Mitch Steimel</h1>
+             </div>
+             <div class="row">
+               <h2 class="aspiring col-md-12 text-center">An Aspiring Web Developer</h2>
+             </div> 
+           </div>
+         </div>
+
+         <div class="earth-middle-right">
+           <div class="container">
+             <div class="row">
+               <h1 class="hello col-md-12 text-center">Hello,<br> I'm Mitch Steimel</h1>
+             </div>
+             <div class="row">
+               <h2 class="aspiring col-md-12 text-center">An Aspiring Web Developer</h2>
+             </div> 
+           </div>
+         </div>
+
+         <div class="air-right">
+           <div class="container">
+             <div class="row">
+               <h1 class="hello col-md-12 text-center">Hello,<br> I'm Mitch Steimel</h1>
+             </div>
+             <div class="row">
+               <h2 class="aspiring col-md-12 text-center">An Aspiring Web Developer</h2>
+             </div> 
+           </div>
+          </div>
+       </div> <!-- end of fire cotnainer -->
+
+
+      <div class="container-fluid"> <!-- My Story Container-->
+        <div class="background-color"> 
+         <div class="row">
+           <img class="selfie col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5 col-xs-4 col-xs-offset-4 text-center" alt="Picture of Mitch Steimel" src="https://media.licdn.com/media/AAEAAQAAAAAAAAmJAAAAJGFjNTdhYjI1LWE5OGItNGM2Ni04YzE1LTYxNDcxOTNlOTczMw.jpg"> 
+         </div>
+
+          <div class="row">
+           <h3 id="story" class=" story col-md-3 col-md-offset-5 col-sm-3 col-sm-offset-5
+           col-xs-6 col-xs-offset-3 text-center">My Story</h3>
+          </div>
+
+          <div class="row">
+            <ul class="story-list list-unstyled col-md-12 col-sm-12 col-xs-12">
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-tree-deciduous text-center col-md-12"></span><h3>Education</h3>
+                <p>I graduated from Iowa State in 2015 with Bachelor's of Science segrees in Global Resource Systems and Forestry with a minor in Horticulture</p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-heart text-center col-md-12"></span> <h3>Love</h3>
+                <p>While at Iowa State I fell In love with a beautiful woman who had two years left of grad school, and wanted to stay in Iowa close to family.</p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-user text-center col-md-12"></span> <h3>HTML &#38; CSS</h3>
+                <p>I've been looking for, and failing to find, a natural resource job for over a year now becuase I live in the only state without a national park (yes, even Nebraska has one). I decided to try something new; learn HTML and CSS.</p>
+              </li>
+            </ul>
+          </div>
+        </div> <!--Background color -->
+      </div> <!-- My Story Container-->
+
+      <div class="container-fluid">
+       <div class="background-color">
+         <div  class="row">
+           <div id="about-me" class="about-me">
+             <div class="about-me-info col-md-4 col-md-offset-6 col-sm-6 col-sm-offset-4 col-xs-8 col-xs-offset-4 ">
+               <h2> About Me </h2>
+               <p>Dont't let my Natural Resource background fool you, I'm a nerd (or a geek? I'm never sure which) and gamer through and through. I grew up playing videos games and still do (PC Master Race!), I wrote a 500 page fantasy novel (I'm not saying it's tolken caliber), and I dungeon master Dungeons and Dragons for two different groups (snarky comment is unnecessary for this one). </p>
+            </div> 
+           </div>
+         </div> 
+         <div class="row">
+           <div id="exp" class="exp">
+             <div class="exp-info col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-8">
+               <h2> Experience </h2>
+               <p>I don't have the traditional web development background but I do have desire, determination, drive. I spend hours everyday learning and  pacticing HTML, CSS,  Bootstrap, JavaScript, and others. If you pass on me, I'll understand but you'll likely see me working someplace else before too long. I will not stop until I have a career in the web development field.</p>
+             </div>
+           </div>
+        </div>
+         <div class="row">
+            <div id="passion" class="passion">
+              <div class="passion-info col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                <h2> Passions </h2>
+                <p>I've developed a deep passion for creative endeavours and pour myself into them for, days, weeks, and in the case of my book, years at a time. I seek to improve everyday and delight in learning new things, which is what draws me to web development. Each day, I learn more, I improve, and I become a better person and web develeoper.</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> <!--About Me Container-->
+
+     <div class="container-fluid">
+       <div class="background-color"> 
+         <div class="row">
+            <ul id="the-elements" class="story-list-2 list-unstyled col-md-12 col-sm-12 col-xs-12">
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-fire text-center col-md-12"></span><h3>Desire</h3>
+                 <p>I want to do something I care about. I don't want to spend each day going to a job I dislike just so I can pay my bills. I want a <b>career</b> I'm proud of. I want to be excited waking up every morning because I love what I do and go to sleep with a sense of accomplishment. </p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-globe text-center col-md-12"></span> <h3>Determination</h3>
+                <p>I wrote a novel while a full-time student with a part-time job. The project took me four years but I sacrificed my free time because it was something I wanted to achieve. I've alson gone from zero HTML and CSS experience to creating this site.</p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-cloud text-center col-md-12"></span> <h3>Flexibility</h3>
+                <p>I've spent a combined 18 weeks in Uganda and China. I learned how to be humble, have an open mind, and work through any sort of problems that arise. I don't give up easily and try everything I can to solve a problem. </p>
+              </li>
+            </ul>
+          </div>
+       
+        <section id="pic-board">
+          <div class="row">
+           <div class="pic-group-1">
+             <img alt="Mitch and his fiance" class="pic-board img-responsive col-md-3 col-sm-6 col-xs-6" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15232068_1486018684743403_2332096835011517928_n.jpg?oh=c3775d9f4c19399363feb6649a65442b&oe=590E3259">
+             <img alt="Live oak trees" class="pic-board img-responsive col-md-3 col-sm-6 col-xs-6" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/11063778_2953383951678_6836599411547993137_n.jpg?oh=06d44bf08a078816e95744fc099013e4&oe=594BD6CE">
+             <img alt="Mitch with his pet dogs" class="pic-board img-responsive col-md-3 col-sm-6 col-xs-6" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/15401062_3774694243922_779117411746223642_n.jpg?oh=8bbbcf6b55b985ff6c599e3999868b84&oe=5906E66A">
+          </div>
+           <div class="pic-group-2">
+              <img alt="Holding hands on the beach" id="beach" class="pic-board img-responsive col-md-3 col-sm-6 col-xs-6" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/10982623_2953387391764_5701917860928713321_n.jpg?oh=9853db55e531c0876fc4c668c67403b8&oe=590EC27A">
+             <img alt="Building ruins" class="pic-board-row2 img-responsive col-md-3 col-sm-6 col-xs-6" src=" https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12261_2703613547574_3983782399824283489_n.jpg?oh=970a95082351e5c2f39b24f42ea63919&oe=593E36B2">
+             <img alt="Gourmet doughnuts" class="pic-board-row2 img-responsive col-md-3 col-sm-6 col-xs-6" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/10351448_2502654283718_6633182449372116875_n.jpg?oh=a0b338d7a80a2b5f9129250a2e093e7e&oe=590C4A88">
+             </div>
+           </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+         <div class="row">
+            <ul id="the-end" class="story-list-3 list-unstyled col-md-12 col-sm-12 col-xs-12">
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-fire text-center col-md-12"></span><h3>Buzzwords</h3>
+                 <p>I felt like I needed one more row here to tie things together. I'm sure I could have come up with some more buzzwords and phrases to draw you in like "Integrity" or "Optimize". But you're a smart person and a few more fancy words aren't going to win you over, but if they will "Teamwork" Succes" "Green Energy" just for good measures. </p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-globe text-center col-md-12"></span> <h3>Attention Graber</h3>
+                <p>I'm pretty easy going and easy to get along with. I'm not stranger to hard work and I think my progess in web design shows that. I've only been practicing  for a few months and I feel like I've tremendous progress and I'll only get better. I just need a chance. </p>
+              </li>
+              <li class="col-md-4 col-sm-4 col-xs-12">
+                <span class="glyphicon glyphicon-cloud text-center col-md-12"></span> <h3>Other Words</h3>
+                <p>Hopefully you get the 5th Element joke too. I'm sure it was kind of amusing if you remember the movie and utterly confusing if you didn't. The 5th Element was a Sci-Fi film from the 90's where Bruce Willis has to use the elements (fire, water, ectb) to save the universe and it turned out, the 5th element was love all along.</p>
+              </li>
+            </ul>
+          </div>
+
+         <div class="contact-background">   
+           <div id="get-in-touch" class="contact row">
+             <h2 class="col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 text-center"> Get in Touch</h2>
+              <p class="col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4 col-xs-12 text-center">Let's start this journey together.</p>
+               <a class="btn btn-primary ol-md-offset-5 col-md-2 col-sm-2 col-sm-offset-5 col-xs-4 col-xs-offset-4 text-center" href="mailto:mitch.steimel@gmail.com">Let's Start</a>
+               
+          
+           </div>
+         </div> 
+       </div> <!-- End of Contact Container-->
+
+       <div class="container-fluid">
+         <div class="footer">
+           <div class="row">
+             <ul class="footer-nav list-unstyled col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+               <li><a href="#">Home</a></li>
+               <li><a href="#story">My Story</a></li>
+               <li><a href="#the-elements">Elements</a></li>
+               <li><a href="/Users/mitch/Documents/HTML and CSS/My website/5th-element.html" target="_blank">5th Element</a></li>
+               <li class="active"><a href="#get-in-touch">Contact</a></li>
+             </ul>
+             <ul class="footer-contact list-unstyled col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+               <h3>Contact</h3>
+               <li>Email: mitch.steimel@gmail.com </li>
+               <li>Blog: <a href="http://mitchsteimel.com/">mitchsteimel.com</a> </li>
+               <li>Twitter: <a href="https://twitter.com/Mesteimel">mesteimel</a> </li>
+             </ul>
+             <div class="copywrite col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+               <h3>Copywrite</h3>
+               <p>Hey, please don't steal this and call it your own! Absoluetly feel free to be inspired by it and draw inspiration heavily from it, that's what good art is. Just don't straight up steal it though. That's uncool man.</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="end col-md-12">
+              <br>
+              <br>
+             </div>  
+           </div>
+         </div> 
+       </div>
+          
+
+         
+    
+      
+     
+
+
+
+
+
+
+     
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+
+
+
+  </html>
