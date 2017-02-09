@@ -194,9 +194,34 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 	margin-bottom: 10%;
 }
 
+
+.projects {
+	margin: 2% 0;
+	padding: 5% 0 0 0;
+	width: 100%;
+	  height: auto;
+
+}
+
+.projects-info {
+	color: hsla(254, 51%, 95%, 1);	
+	padding: auto;	
+	letter-spacing: .15em;
+}
+
+.projects-disclaimer{
+  font-size: .75em;
+  color: hsla(254, 51%, 95%, 1);	
+  padding-bottom: 0;
+  margin: 2% 0;
+}
+
 .pic-board-row2 {
 	margin-top: -16%;
 }
+
+
+
 
 .story-list-3 {
 	background-color: hsla(204, 51%, 33%, 1);
@@ -314,6 +339,11 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 	top: -80px;
 }
 
+.projects {
+	margin: 5% 0;
+	padding: 5% 0 0 0;
+}
+	
 }
 
 @media only screen and (max-width: 400px) {
