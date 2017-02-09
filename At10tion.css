@@ -1,0 +1,842 @@
+*{
+  box-sizing: border-box;
+  font-family: arial, times, sans-serif;  
+  }
+
+p {
+	line-height: 1.25em;
+}
+
+a{
+	text-decoration: none;
+}
+
+.body{
+	background-color: #505050;
+	margin: 0 auto;
+	max-width: 1500px;
+
+}
+
+.container {
+    padding-top: 0;
+	max-width:1250px;
+	background-color: #FCF3CF;
+	margin: 0 auto;
+	display: block;
+}
+
+.header {
+	background:linear-gradient(
+      rgba(255, 100, 0, 0.45), 
+      rgba(255, 100, 0, 0.45)
+    ), url(http://www.pixels-n-grains.com/wp-content/uploads/2015/06/pic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 625px;
+	width: 100%;
+	margin: 0;
+}
+
+.header {
+	margin-bottom: 0px;
+}
+
+.nav-bar {
+   width:100%;
+   float: right;
+   
+}
+
+.nav-bar img{
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin-left: 8%;
+   float: left;
+}
+
+.nav-bar-list {
+   list-style-type: none;
+   float: right;
+   width:70%;
+   margin-right: 5%;
+   height: 1em;
+   
+  
+}
+.nav-bar-list ul{
+	 display: inline-block;
+	 width: 100%;	 
+	 margin-top: 20px;
+}
+
+.nav-bar-list li{
+	width:auto;
+	display: inline-block;
+	float: right;
+	font-size: .75em;
+	margin: 0 1%;
+	padding: auto;
+	text-align: center;
+}
+
+.nav-bar-list li a{
+	color: white;
+}
+
+.nav-bar-list li a:hover {
+  color: grey;
+}
+
+.header h1{
+   display: block;
+   float: left;
+   font-size: 5.75em;
+   width:90%;
+   margin: 20px 0 10px 8%;
+   color: white;
+}
+
+.header p{
+   display: block;
+   float: right;
+   width:50%;
+   margin: auto 8% auto 0;
+   color: white;
+   font-style: italic;
+   overflow: hidden;
+}
+
+.box {
+	background-color: white;
+	margin: 0 auto 0 0;
+	width: 50%;
+	height: 40px;
+	display: block;
+	position: relative;
+	bottom: -590px;
+	left: 0;
+	border: 1px solid transparent;
+}
+
+.down-arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 60px solid #1DB6AD;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+.personally {
+  background-color: white;
+  background-image: url(http://cache.gawkerassets.com/assets/images/4/2008/10/lubitel1661.jpg);
+  background-repeat: no-repeat;
+  background-position: 90% 100px;
+  width: 100%;
+  height: 500px;
+  margin-top: -0;
+  display: inline-block;
+}
+
+
+.info {
+	display: block;
+	max-width: 43%;
+	min-width: 275px;
+	margin-top:0;
+	margin-bottom: 0;
+	float: none;
+	
+	
+}
+
+.info h2 {
+	font-size: 3em;
+	letter-spacing: .05em;
+	margin-bottom: 10px;
+}
+
+.button {
+	border: 2px solid #51514F;
+	width: 130px;
+	height: 50px
+	padding:0;
+}
+
+.button a {
+	margin-left:10px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#pers-info {
+	background-color: white;
+	float: left;
+	margin: 80px auto auto 8%;
+	min-width: 360px;
+	height: 225px;
+	padding-left: 5px;
+	padding-right: auto;
+}
+
+#pers-info h2{
+	color: #51514F;
+}
+
+#pers-info p{
+	color: #51514F;
+}
+
+#pers-info a{
+	color: #51514F;
+}
+
+#pers-info a:hover{
+	color: black;
+}
+
+.contin {
+  background-color: #F1C40F;
+  background-image: url(https://www.daysoftheyear.com/wp-content/images/flip-flop-day1-e1433507065572.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin-top: -22px;
+  display: inline-block;
+}
+
+#contin-info{
+	margin: 100px 8% auto auto;
+	float: right;
+	
+}
+
+#contin-info h2, p, a{
+	color: white;
+}
+
+#contin-btn {
+	border-color: white;
+}
+
+#contin-info a:hover {
+	color: grey;
+}
+
+.financially {
+  background-color: white;
+  background-image: url(http://www.pngmart.com/files/3/Coin-Stack-PNG-Pic.png);
+  background-repeat: no-repeat;
+  background-position: 95% -20px;
+  width: 100%;
+  height: 500px;
+  margin-top: -22px;
+  display: inline-block;
+
+}
+
+#fin-info {
+	background-color: white;
+	margin: 80px auto auto 8%;
+	float: left;
+	height: 240px;
+}
+
+#fin-info h2{
+	color: #51514F;
+}
+
+#fin-info p{
+	color: #51514F;
+}
+
+#fin-info a{
+	color: #51514F;
+}
+
+#fin-info a:hover{
+	color: black;
+}
+
+.header-2 {
+	background:linear-gradient(
+      rgba(6, 115, 128, 0.65), 
+      rgba(6, 115, 128, 0.65)
+    ), url(http://mindpluckd.com/wp-content/uploads/2015/03/business-meeting_Large-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 625px;
+	width: 100%;
+	margin-top: -5px;
+}
+
+.header-2 h1{
+   display: inline-block;
+   float: left;
+   font-size: 5.75em;
+   width:750px;
+   margin: 20px 0 10px 8%;
+   color: white;
+   margin-top: 100px;
+ 
+}
+
+.header-2 p{
+   display: block;
+   float: right;
+   width:50%;
+   margin: auto 8% auto 0;
+   color: white;
+   font-style: italic;
+   overflow: hidden;
+}
+
+#box-2 {
+	background-color: white;
+	margin: 0 auto 0 0;
+	width: 50%;
+	height: 40px;
+	display: block;
+	position: relative;
+	bottom: -570px;
+	left: 0;
+	border: 1px solid transparent;
+}
+
+#arrow-2 {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 60px solid rgb(255, 100, 0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+
+.phil {
+  background-color: white;
+  background-image: url(http://lyonssnyder.com/wp-content/uploads/2013/08/rope.jpg);
+  background-repeat: no-repeat;
+  background-position: 95% -20px;
+  background-size: 500px;
+  width: 100%;
+  height: 500px;
+  margin-top: -22px;
+  display: inline-block;
+
+}
+
+#phil-info {
+	background-color: white;
+	margin: 80px auto auto 8%;
+	float: left;
+	padding-right: 5px;
+	min-width:400px;
+	height: 225px;
+}
+
+#phil-info h2{
+	color: #51514F;
+	background-color: white;
+	
+}
+
+#phil-info p{
+	color: #51514F;
+	background-color: white;
+}
+
+#phil-info a{
+	color: #51514F;
+	background-color: white;
+}
+
+#phil-info a:hover{
+	color: black;
+}
+
+.strat {
+  background-color: grey;
+  background-image: url(https://fringefocus.com/wp-content/uploads/2014/08/GamingWorldMap_Europe_FringeFocus.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: -22px;
+  display: inline-block;
+}
+
+#strat-info{
+	margin: 100px 8% auto auto;
+	float: right;
+}
+
+#strat-info h2{
+	color:#51514F;
+	color: white;
+}
+
+#strat-info p{
+	color: #51514F;
+	color: white;
+}
+
+#strat-info a{
+	color: #51514F;
+	color: white;
+}
+
+#strat-btn {
+	border-color: #51514F;
+	color: white;
+}
+
+#strat-info a:hover {
+	color: grey;
+}
+
+.collab {
+  background-color: white;
+  background-image: url(http://www.marketingdonut.co.uk/sites/default/files/Sharppencils_249.jpg);
+  background-repeat: no-repeat;
+  background-position: 95% 180px;
+  background-size: 500px;
+  width: 100%;
+  height: 500px;
+  margin-top: -22px;
+  margin: 0 auto;
+  display: inline-block;
+ 
+
+}
+
+#collab-info {
+	background-color: white;
+	margin: 80px auto auto 8%;
+	float: left;
+	padding-right: 5px;
+	min-width:400px;
+	height: 235px;
+	
+}
+
+#collab-info h2{
+	color: #51514F;
+	background-color: white;
+	width: 400px;
+}
+
+#collab-info p{
+	color: #51514F;
+	background-color: white;
+}
+
+#collab-info a{
+	color: #51514F;
+	background-color: white;
+}
+
+#collab-info a:hover{
+	color: black;
+}
+
+.end-header {
+	background-color: #FF9A00; 
+	height: 75px;
+	width: 100%;
+	display: block;
+	margin:0 auto;
+	
+}
+
+.end-header-info {
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.end-header h3{
+  display: inline-block;
+  width: 40%;
+  margin-left: 20%;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+#end-button {
+	display: inline-block;
+	padding: auto;
+	margin-left: 2%;
+	text-align: center;
+}
+
+#end-button a:hover {
+	color: black;
+}
+
+.footer{
+	height: auto;
+}
+
+.lists {
+	width: 100%;
+	background-color: #505050;
+	height: 200px;
+	margin-bottom: 0;
+	
+}
+
+.lists img{
+   display: block;
+   float: right;
+   width: 100px;
+   height: 100px;
+   margin: 40px 5% 10px 3%;
+}
+
+.lists ul {
+	list-style-type: none;
+	display:block;
+	float: left;
+	width: 40%;
+	margin: 0 0;
+}
+
+.lists h4{
+	width: 60%;
+	color: white;
+}
+
+.lists li {
+	width: 50%;
+	float: left;
+	margin-top: 0;
+	color:#FF9A00; 
+	margin-bottom: 10px;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 3px;
+}
+
+time{
+	margin-top: 10px;
+	display: block;
+	color: #B2B2B2;  
+	
+}
+
+
+
+.sub-footer {
+	width: 100%;
+	background-color: #9F9F9F;
+	height: 40px;
+	margin: 0 auto;
+
+}
+
+.copyright {
+  width: 40%;
+  display: block;
+  float: left;
+}
+
+.copyright h6{
+	margin-top: 10px;
+
+}
+
+.copyright a {
+  text-decoration: none;
+  color: black;
+  margin: 0
+}
+ 
+ .copyright a:hover {
+ 	color: white;
+ }
+
+ .policy {
+ 	width: 40%;
+ 	display: block;
+ 	float: right;
+ }
+
+ .policy p{
+ 	font-size: .75em;
+ 	margin-top: 10px;
+ 	text-align: right;
+ 	color:#F39C12;
+ 	overflow: hidden;
+ 	
+ }
+
+
+ @media screen and (max-width: 950px) {
+ 	
+
+ 	.end-header h3{
+ 		float: none;
+ 		margin: 10px auto;
+ 		font-size: 1em;
+ 		width: 100%;
+ 	}
+
+ 	#end-button{
+ 		float: none;
+ 		display: block;
+ 		margin: 0 auto;
+ 	}
+ }  
+
+ @media screen and (max-width: 890px) {
+ 	.header h1 {
+ 		font-size: 5em;
+ 		width: 78%;
+ 	}
+
+    .nav-bar {
+    	float: none;
+    }
+    
+ 	.nav-bar img{
+ 		padding: auto;
+ 		
+ 	}
+
+ 	.header-2 h1{
+ 		font-size: 5em;
+ 		width: 78%;
+ 	}   
+
+
+  .lists {
+  	height:390px;
+  }
+ 
+   .lists ul{
+   	float: none;
+   	margin-left: 5%;
+   	width: 50%
+   }
+
+   .lists h4 {
+  	text-align: left;
+  	display: inline-block;
+  }
+  
+  .lists img {
+  	margin: 80px 200px 0 0;
+  }
+
+  .lists li {
+  	padding-right: 5px; 
+  }
+  
+  .lists a {
+  	display: inline-block;
+  	margin-top: 10px;
+  }
+
+  }
+
+ @media screen and (max-width: 680px) {
+ 	.header h1 {
+ 		font-size: 4em;
+ 		width: 90%;
+ 	}
+
+ 	.nav-bar-list {
+ 		float:none;
+ 		margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+ 	}
+
+ 	.nav-bar-list li{
+ 		float: none;
+ 		margin: auto;
+ 	}
+
+ 	.nav-bar img{
+       float: none;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+ 	}
+
+ 	.box {
+  	width: 100%;
+  	position: absolute;
+  	bottom: 120px;
+  }
+
+   #box-2 {
+   	width: 100%;
+  	position: absolute;
+  	bottom: -1945px;
+   }
+
+  .header-2 h1 {
+ 		font-size: 4em;
+ 		width: 90%;
+ 	}
+
+   .lists img{
+   	 float:none;
+   	 margin: auto; 
+   }
+  
+  .lists ul{
+  	float:left;
+  	width: 40%
+  }
+
+ }
+
+
+ @media screen and (max-width: 560px) {
+  .header h1 {
+  	float: none;
+  	font-size: 3em;
+  	margin: 50px auto auto auto;
+  	padding: auto;
+  	text-align: center;
+  }
+
+  .header p {
+  	float:none;
+  	margin:50px auto auto auto;
+  	padding: auto;
+  	font-size: 1em;
+  	width:75%;
+  }
+
+.box {
+  	bottom: 100px;
+  }
+
+  #box-2 {
+   	width: 100%;
+  	position: absolute;
+  	bottom: -1978px;
+  	margin-bottom: -10px;
+  	height: 50px;
+   }
+
+
+  .info h2{
+  	font-size: 3em; 
+  }
+
+  .info p {
+  	font-size:.9em;
+  }
+  
+
+
+  #pers-info {
+  	float:none;
+  	margin: 150px auto;
+  	height: 175px;
+
+  }
+  
+  #contin-info {
+  	float:none;
+  	margin: 150px auto;
+  }
+  
+  #fin-info {
+  	  float:none;
+  	  margin: 150px auto;
+  	  height: 185px;
+  	  padding-left: 2%;
+  	}
+
+   .header-2 {
+	float:none;
+  }
+
+  	.header-2 h1 {
+  	  float: none;
+  	  font-size: 3em;
+  	  margin: 150px auto auto auto;
+  	  padding: auto;
+  	  text-align: center;
+  }
+
+  .header-2 p {
+  	float:none;
+  	margin: 50px auto auto auto;
+  	padding: auto;
+  	font-size: 1em;
+  	width:75%;
+  }
+
+
+  	#phil-info{
+  	  float:none;
+  	  margin: 150px auto;
+  	}
+
+  	#strat-info {
+  	  float:none;
+  	  margin: 150px auto;
+  	}
+
+  	#collab-info {
+  	  float:none;
+  	 margin: 150px auto;
+  	}
+
+  	.lists ul{
+  	  float:none;
+  	  margin: auto;
+  	  width: 90%
+  }
+
+   .lists h4 {
+   	margin: 5px
+   }
+
+   .copyright {
+   	float: none;
+   	width: 100%;
+   	padding: auto;
+   	margin: 5px auto;
+   }
+
+  .copyright h6{
+  	text-align: center;
+  	padding: auto;
+   	margin: auto;
+  }
+
+   .policy {
+   	float: none;
+   	width: 100%;
+   	padding: auto;
+   	margin: 5px auto;
+   }
+
+   .policy p{
+   	text-align: center;
+   	padding: auto;
+   	margin: auto;
+   }
+ }
