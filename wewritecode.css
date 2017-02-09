@@ -1,0 +1,657 @@
+*{
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	line-height: 1.75em;
+	font-weight: 0;
+}
+
+.container {
+  padding-top:20px;
+  width: 100%;
+  margin:0 auto;
+  background-color: white;
+}
+
+body {
+  background-color: #249A76;
+  margin: 0;
+	}
+
+.navigation {
+  margin-top: -40px;
+  margin-bottom:0px; 
+  background:linear-gradient(
+      rgba(61, 84, 189, 0.65), 
+      rgba(61, 84, 189, 0.65)
+    ), url(https://t4.ftcdn.net/jpg/01/30/23/69/240_F_130236979_fJvlfvVLP08LMQEe0eac6UAIiFHVHsZm.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height:750px;
+}
+
+.nav-bar {
+	width:95%;
+}
+
+.logo {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-left: 5%;
+}
+
+.nav-bar ul {
+   overflow: hidden;
+}
+
+.nav-bar-list{
+	display:block; 
+	text-align:right;
+	margin-top: 20px 
+	width: 100%;
+}
+
+.nav-bar-list li{
+	display: inline-block;
+	overflow: hidden;
+	margin: 30px 1% 0 1%;
+	max-width: 40%;
+	overflow: hidden;
+
+}
+.nav-bar-list li a{
+	font-family: ;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;	
+	text-transform: uppercase;
+}
+
+li a:hover {
+	color:grey;
+} 
+
+.header{
+	color:white;
+	margin: 200px auto 0 auto;
+		
+}
+
+.header h1{
+	font-size: 3.25em;
+	width: 80%;
+	text-align: center;
+	margin: 20% auto 35px auto;
+	line-height: 1.5em
+}
+
+.header p{
+	font-size: 1.25em;
+	line-height: 1.75em;
+	width: 80%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.scroll-down {
+	background-image: url(http://www.mandeemaryboudoir.com/wp-content/uploads/revslider/homeslider2/white-arrow-down-150x150.png);
+	background-size: 50px;
+	margin:0 auto;
+	position: relative;
+	bottom: -5%;
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height:50px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	text-align: -9999px;
+}
+
+.scroll-down:hover {
+	text-align:0; 
+	background-image: none;
+
+}
+
+.scroll-down a {
+	text-decoration: none;
+}
+
+.scroll-down p{
+	opacity: 0;
+	border: none;
+}
+
+
+.scroll-down p:hover {
+	opacity: 1;
+	z-index: 1;
+}
+
+.mission-statement {
+	max-width: 1000px;
+	margin:0 auto;
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+.mission-statement h2 {
+   margin: 40px 5% 30px 5%;
+   width: 60%;
+   color: #249A76;
+}
+
+.mission-statement p {
+   margin: 20px 5% 10px 5%;
+   line-height: 1.5em;
+   text-align: left;
+   width:90%;
+   color: black;
+}
+
+.mission-state-list {
+	width:100%;
+    margin-left:auto;
+	margin-right: auto;
+	height: auto;
+	padding-top: 0;
+	padding-bottom: auto;
+	margin-bottom: auto;
+}
+
+.mission-state-list li{
+	display: inline-block;
+	width: 32%;
+	overflow: inherit;
+	height: auto;
+	vertical-align: top;
+	padding-top: 3%; 
+}
+
+
+.list-item img{ 
+	max-width: 100%;
+	padding: 0 10px;
+}
+
+.list-item h3{
+	max-width: 100%;
+	margin-left: 10px;
+	color:#249A76;
+	text-transform: uppercase;
+}
+
+.list-item p{	
+  max-width: 100%;
+}
+
+.client-story{
+	background:linear-gradient(
+      rgba(15, 217, 194, 0.55), 
+      rgba(15, 217, 194, 0.55)
+    ), url(http://abcnews.go.com/images/Technology/gty_person_using_computer_jt_130112_wblog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 400px;
+    padding-top: 70px;
+}
+
+.client {
+	width: 98%;
+	margin: 10px auto;
+	text-align: center;
+	display: block;
+}
+
+.client h1, p {
+	color: white;
+}
+
+.client h1{
+	font-size: 36px;
+	width: 100%;
+	font-size: 3.25em;
+	margin: 15px auto;
+}
+
+.client p{
+	width:100%; 
+	color:white;
+	font-size: 1em;
+	line-height: 1.75em
+	font-weight:0;
+	text-align: center;
+}
+
+.client-button{
+   height: 50px;
+   width: 180px;
+   margin: 20px auto;
+   background-color: rgba(255, 255, 255, 100);
+   color: rgba(0, 0, 0, 100);
+   transition: all 0.2s ease-in-out;
+}
+
+.client-button:hover {
+  background-color: rgba(255, 255, 255, .75);
+  color: rgba(0, 0, 0, .75);
+}
+
+.button {
+   line-height: 2em;
+   display: block;
+   text-decoration: none;
+   text-align: center;
+   color: grey;
+   margin: 0 auto;
+   letter-spacing: .25em;
+   text-transform: uppercase;
+}
+
+
+.client-story a{
+ padding-top: 8px;
+}
+
+.clients-list {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+.clients-list h2{
+	text-align:center;
+	padding: 30px;
+	margin-top: 50px;
+	color:#249A76;
+	text-transform: uppercase;
+}
+
+.client-image {
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 20%;
+
+}
+
+
+.client-image img{
+	width: 16%;
+	max-height: auto;
+	margin:0 2%;
+}
+
+hr {
+	width:95%;
+	margin-bottom: 0px;
+	margin-top: 30px 
+	padding-top:0;
+}
+
+.blog{
+	width:95%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.blog h2{
+	text-align:center;
+	color:#249A76;
+	text-transform: uppercase;
+}
+
+.blog-list ul {
+	width: 90%;
+}
+
+.blog-list li{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	padding: 0 10px;
+	margin: 0 1%;
+}
+
+time {
+	text-align: left;
+	display: block;
+}
+
+.blog-item h4{
+	max-width: 100%;
+	font-size: .75em;
+	letter-spacing: .15em;
+	color:#249A76;
+	text-transform: uppercase;
+}
+
+.blog-item p{	
+  max-width: 100%;
+  text-align: left;
+  color: black;
+  font-size: .75em;
+}
+
+.blog-item a{
+  color: grey;
+  text-decoration: none;
+}
+
+.top{
+	margin:0 auto;
+	position: relative;
+	bottom: -25px;
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height:50px;
+	background-color: white;
+	border: 1px solid transparent;
+}
+
+ .top img{
+ 	width: 40%;
+ 	height: 40%;
+ }
+
+ .top a {
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	letter-spacing: .15em;
+ 	font-weight: 500;
+ 	color: black;
+ }
+
+
+
+footer {
+	max-width: 1000px;
+	width: 100%;
+	background-color: #249A76;
+    margin: 0 auto;
+}
+
+.footer {
+	width:100%;
+}
+
+.footer hr {
+	width: 90%;
+    margin: 55px auto 0 auto;
+}
+
+.footer-home {
+	width: 100%;
+	margin:50px auto;
+}
+
+.footer-home h3{
+	width:100%;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 45px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .15em;
+}
+
+.footer-home a{
+	text-align: center
+	padding: auto;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.footer-home a:hover{
+   color: rgba(255,255,255,.75)
+}
+
+.footer-images{
+   width:100%;
+   text-align: center;
+   padding-left: auto;
+   padding-right: auto;
+   margin: 0 auto;
+}
+
+.footer-images img{
+   width: 15%; 
+   padding: 0 .25em;  
+   text-align: center;
+   margin-bottom: 0;
+}
+
+.footer-nav {
+   width:100%;
+   text-align: center;
+   padding-left: auto;
+   padding-right: auto;
+   margin: 0 auto;
+}
+
+
+.company {
+	width: 20%
+	margin:0 auto;
+	float: left;
+}
+
+
+.foot-nav-list{
+	width: 30%;
+	list-style-type: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+.foot-nav-list h4{
+  color: white;
+  font-size: 1em;
+  margin:0;
+}
+
+.foot-nav-list li{
+	padding: 3px;
+	vertical-align: top;
+}
+
+.foot-nav-list a{
+  color:white;
+  
+}
+
+.contact-us{
+	width: 25%;
+	display: block;
+	float: left;
+	margin-left:25%;
+	margin-top: 0;
+}
+
+.contact-us h4, p {
+	
+	width:100%;
+	color: white;
+	margin: 0;
+
+}
+
+.contact-us p{
+	padding: 0 auto, 0, auto;
+	margin-top: 10px;
+}
+
+.connect-with-us{
+	display: block;
+	float: left;
+	margin: 0;
+}
+
+.connect-with-us h4 {
+	color: white;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.connect-with-us ul{
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 0;
+  vertical-align: top;
+}
+
+.social-list{
+	float: left;
+}
+
+.social-list li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0;
+	width: 30px;
+	height: 30px;
+}
+
+.social-list img {
+    margin-top: 25px;
+}
+
+.social-list img:hover{
+	color: white;
+}
+
+@media screen and (max-width: 770px) {
+  
+  .header h1 {
+  	width: 95%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .navigation {
+  	height: 850px;
+  }
+
+  .mission-state-list {
+		margin: 0 auto
+		padding:0 auto;
+	}
+
+  .mission-state-list li{
+  	display: block;
+  	margin: 0 auto;
+  	width: 100%;
+  	text-align: center;
+  }
+
+  .mission-state-list img {
+  	width: 80%;
+  	padding:0 auto;
+  	margin-bottom: 10px;
+  }
+
+  .list-item h3 {
+  	text-align: left;
+  	margin: 20px auto;
+  }
+
+  .list-item p{
+  	width:100%;
+  	padding: 0;
+  	margin: 0;
+  }
+
+.client-image img{
+	width: 35%;
+	margin:7% 3%;
+}
+
+.footer-images img{
+	width: 43%;
+	margin: 1%;
+}
+
+.company {
+	float: none;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.contact-us {
+	float:none;
+	text-align: left;
+	margin-left: 7%;
+	margin-bottom: 35px;
+	width: 50%;
+}
+
+.contact-us p {
+	line-height: 1em;
+}
+
+.social-list {
+	float:none;
+	margin-bottom: 50px;
+}
+
+}
+
+@media screen and (max-width: 530px) {
+	.logo {
+		float: none;
+		margin: 15px auto 0 auto;
+		display: block;
+	}
+	.nav-bar{
+		margin: 0 auto;
+	}
+
+	.nav-bar-list {
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+
+     .nav-bar-list li {
+     	max-width: 80%;
+     	margin-top: 0;
+     }
+
+     .navigation {
+  	height: 950px;
+  }
+
+  .blog-list ul {
+
+  }
+
+  .blog-list li{
+  	display: block;
+  	width: 95%;
+  }
+
+}
