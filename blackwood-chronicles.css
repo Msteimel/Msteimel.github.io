@@ -255,10 +255,11 @@ hr {
 
 .arlo {
 	margin-top: -10%;
+	width: 100%;
 }
 
 .arlo-info {
-	margin-top: -20%;
+	margin-top: -8%;
 	background-color: hsla(312, 40%, 16%, 1);
 	right:-6%;
 }
@@ -369,10 +370,6 @@ hr {
 
 @media only screen and (max-width: 1050px) {
 
-  .arlo-info {
-	margin-top: -15%;
-  }
-
   .character h4 {
 	left: -5%;
   }
@@ -446,7 +443,8 @@ hr {
   }
 
   .arlo-info {
-  	margin-top: -5%;
+  	margin-top: 2%;
+  	left:-20%;
   }
 
   #vanilor {
@@ -494,7 +492,7 @@ hr {
   	font-size: 1.2em;
   }
 
-#blackwood {
+ #blackwood {
 	left: 25%;
  }
 
@@ -536,9 +534,9 @@ hr {
 	}
 
  .arlo-info {
-	margin-top: 2%;
-	right:0%;
+	left:0%;
   }
+
 
  .arlo-info h3 {
    right:0%;
@@ -605,3 +603,4 @@ hr {
 
 
 }
+
