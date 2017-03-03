@@ -1,0 +1,607 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Cambria','Helvetica', 'Sarif';
+	
+}
+
+h1 {
+	font-size: 8em;
+	color:white;
+}
+
+h2 {
+	font-size: 6em;
+	color: white;
+}
+
+h3 {
+	font-size: 3em;
+	color:white;
+}
+
+h4 {
+	font-size: 1.75em;
+	color:white;
+}
+
+p {
+	color: white;
+	font-size: 1.25em;
+}
+
+body {
+	background-color: white;
+	min-width: 525px;
+}
+
+img {
+	width: 100%;
+	  height: auto;
+}
+
+hr {
+	width: 90%;
+}
+
+.spacer {
+	margin-top: 25px;
+}
+
+.section-spacer {
+	margin-top: 150px;
+}
+
+.navbar {
+	width: 95%;
+	margin:0 auto;
+}
+
+.navbar-brand {
+	color: white;
+	padding-top: 5px;
+}
+
+
+.active {
+	background-color: white;
+}
+
+#home a {
+  padding-top: 20px;
+}
+
+.background-color {
+	width: 95%;
+	background-color: black;
+	margin: auto; 
+}
+
+.header {
+	margin-top: -10px;
+}
+
+.title {
+	color: black;
+	padding: 2%;
+}
+
+.title h4 {
+	margin: 5% 0;
+}
+
+.the {
+	z-index: 1;
+	margin-bottom: -45px;
+	margin-top: 10px;
+	color: white;
+}
+
+.the h5{
+	font-size: 1.6em;
+}
+
+#blackwood {
+	background-color: hsla(206, 86%, 17%, 1);
+	left: 10%;
+	width: 80%;
+	margin-bottom: 2%;
+}
+
+#blackwood h1 {
+	position: relative;
+	left: -12.5%;
+}
+
+#chronicles {
+	background-color: hsla(13, 99%, 35%, 1);
+	right: 90%;
+	width: 125%;
+}
+
+#chronicles h1 {
+	position: relative;
+	right: -10%;
+}
+
+.index-list {
+	list-style-type: none;
+	margin: 20px 0;
+}
+
+
+.list-item{
+	display: inline-block;
+	height: auto;
+	margin: auto;
+}
+
+.info {
+	display: none;
+}
+
+.dragon {
+	background-image: url('http://dnd.wizards.com/sites/default/files/media/styles/second_hubpage_banner/public/images/head-banner/NEW-TO-DnD_What-is-DnD_Subsection_Hero_140718.jpg?itok=5pBlzVTc');
+    background-repeat: none;
+    background-size: cover;
+    background-position: bottom left 65%; 
+    height: 550px;
+    background-attachment: fixed;
+}
+
+.dragon-2 {
+	background-image: url('https://ageekcritique.files.wordpress.com/2014/08/d20.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: bottom left 65%; 
+    height: 550px;
+    background-attachment: fixed;
+}
+
+#npc p {
+	margin-top: 10%;
+}
+
+/*Info on the left  */
+
+.sub-header-info-left {
+	margin-top: 0;
+	margin-bottom: 5%;
+	background-color: hsla(206, 86%, 17%, 1);
+	left: 5%
+}
+
+.sub-header-info-left p{
+	position: relative;
+	right: 20%;
+	padding: 10px 0;
+	margin-bottom: 0;
+	}
+
+/*Sub Header on the left, info on the right  */
+.sub-header-left {
+	background-color: hsla(13, 99%, 35%, 1);
+	margin-top: 20px;
+	margin-bottom: 2%;
+	left:15%;
+	width: 80%;
+}
+
+.sub-header-left h2 {
+	position: relative;
+	right:15%;
+}
+
+.sub-header-info-right {
+	margin-top: 1%;
+	margin-bottom: 5%;
+	background-color: hsla(206, 86%, 17%, 1);
+	right: 22.5%
+}
+
+.sub-header-info-right p{
+	position: relative;
+	left: 50%;
+	padding: 10px 0;
+	}
+
+/* Maps */
+
+.map {
+	margin-bottom: 5%;
+}
+
+  .blackwood-area-map {
+	position: relative;
+    right: 0%;
+    margin-bottom: 2%;
+	}
+
+	.blackwood-area-map img {
+		margin-top: 5%;	
+		display:block;
+	}
+
+.label {
+ 	display: none;
+ 	margin-top: -2%;
+ 	padding: 0;
+ 	font-size: 1.75em;
+ 	letter-spacing: .25em;
+ 	background-color: hsla(312, 0%, 42%, 0.75);
+ }
+
+ .blackwood-map-info {
+ 	margin-top: -25%;
+ 	background-color: hsla(312, 40%, 16%, 1);
+ 	left:-5%;
+ 	margin-bottom: 5%;
+ }
+
+ .blackwood-map-info h3 {
+	position: relative;
+	left: 12%;
+}
+
+.blackwood-map-info p {
+	position: relative;
+	font-size: 1em;
+	left: 16%;
+}
+
+.arlo-pic {
+	margin-top: 3%;
+}
+
+
+.arlo {
+	margin-top: -10%;
+}
+
+.arlo-info {
+	margin-top: -20%;
+	background-color: hsla(312, 40%, 16%, 1);
+	right:-6%;
+}
+
+.arlo-info h3 {
+   position: relative;
+   right:15%;
+}
+
+.arlo-info p {
+   position: relative;
+   right:15%;
+}
+
+.character-list {
+	margin: 4% auto;
+	list-style-type: none;
+	height: 250px;
+}
+
+.character {
+	display: inline-block;
+}
+
+#bree {
+	background-color: hsla(206, 86%, 17%, 1);
+	left: -30%;
+}
+
+#bree p {
+	position: relative;
+	left: 50%;
+}
+
+#horace {
+	background-color: hsla(13, 99%, 35%, 1);
+	left: -30%;
+}
+
+#horace p {
+	position: relative;
+	left: 50%;
+}
+
+#vanilor {
+    background-color: hsla(312, 40%, 16%, 1);
+	left: -30%;
+	margin-left: 2%;
+}
+
+#vanilor p {
+	position: relative;
+	left: 50%;
+}
+
+#setting {
+	margin-bottom: 1%;
+}
+
+.history-info {
+	margin-top: 15%;
+	background-color: hsla(312, 40%, 16%, 1);
+	right:-10%;
+}
+
+.history-info h3 {
+   position: relative;
+   right:15%;
+}
+
+.history-info p {
+   position: relative;
+   right:15%;
+}
+
+.big-map {
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+.ending {
+	margin: 1% auto;
+   
+}
+
+.ending hr {
+	margin-left: 5%
+}
+
+.ending p {
+  font-size: 1em;
+  margin-bottom:1%;
+  left: -5%;
+}
+
+.sub-ending {
+	font-size: .75em;
+	margin-top:-1%;
+}
+
+@media only screen and (max-width: 1200px) {
+   .blackwood-map-info {
+ 	margin-top: -20%;
+
+ }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .arlo-info {
+	margin-top: -15%;
+  }
+
+  .character h4 {
+	left: -5%;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+	
+  #blackwood {
+	left: 25%;
+ }
+
+  #blackwood h1 {
+	left: -15%;
+ }
+
+  #chronicles {
+	right: 65%;
+  }
+
+  #chronicles h1 {
+	right: -15%;
+  }
+
+/*Sub Header on the right, info on the left  */
+  .sub-header-info-left {
+	left: 15%;
+	margin-top:1%;
+	margin-bottom: 1%;
+  }
+
+  .sub-header-info-left p{
+	right: 20%;
+	font-size: 1.5em;
+	padding: 15px 0;
+	}
+
+	/*Sub Header on the left, info on the right  */
+	.sub-header-left h2 {
+	  right: 15%;
+   }
+
+  .sub-header-info-right {
+	margin-top: 1%;
+	right: 25%;
+}
+
+.sub-header-info-right p{
+	font-size: 1.5em;
+	padding: 15px 0;
+	left: 45%;
+	}
+
+ .blackwood-area-map {
+    right: 0;
+	}
+ 
+ .blackwood-map-info {
+ 	margin-top: 5%;
+ 	margin-bottom: 3%;
+ 	left: 0;
+ }
+
+  .blackwood-map-info h3 {
+	left: 25%;
+  }
+
+.blackwood-map-info p {
+	left: 0;
+	font-size: 1.5em;
+  }
+
+  .arlo-info {
+  	margin-top: -5%;
+  }
+
+  #vanilor {
+  	left:-40%;
+  }
+
+  #vanilor p {
+	left: 80%;
+  }
+
+  .character h4 {
+	left: -10%;
+  }
+
+  .history-info {
+	margin-top: 25%;
+	right:-5%;
+}
+
+  .history-info h3 {
+   right:15%;
+  }
+
+  .history-info p {
+   right:15%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  h1 {
+  	font-size: 6em;
+  }
+
+  h3 {
+  	font-size: 2em;
+  }
+
+  h4 {
+  	font-size: 1.5em;
+  }
+
+  .the h5 {
+  	font-size: 1.2em;
+  }
+
+#blackwood {
+	left: 25%;
+ }
+
+ #chronicles {
+	right: 45%;
+  }
+
+  #chronicles h1 {
+	right: -18%;
+  }
+
+/*, info on the left  */
+
+  .sub-header-info-left {
+	left: 18%;
+	
+  }
+
+  .sub-header-info-left p{
+	right: 10%;
+	}
+  /*End*/
+
+  /*Sub Header on the Left, info on the Rght  */
+  .sub-header-left {
+	left:24%;
+}
+
+.sub-header-left h2 {
+	right:20%;
+}
+
+.sub-header-info-right {
+	right: 40%;
+}
+
+.sub-header-info-right p{
+	left: 42%;
+	}
+
+ .arlo-info {
+	margin-top: 2%;
+	right:0%;
+  }
+
+ .arlo-info h3 {
+   right:0%;
+  }
+
+ .arlo-info p {
+   right:0%;
+   }
+
+ .character {
+   margin-left: 15%;
+   margin-top: 3%;
+   padding: 40px 0;
+  }
+
+  .character h4 {
+  	left:-10%;
+  	margin-top: -1%;
+  }
+
+  #bree {
+	left: -15%;
+	margin-bottom: -30%
+   }
+
+   #bree p {
+	left: 15%;
+    }
+
+  #horace {
+	left: -15%;
+	margin-bottom: -30%
+    }
+
+  #horace p {
+	left: 15%;
+   }
+
+  #vanilor {
+	left: -15%;
+	margin-bottom: -30%
+   }
+
+  #vanilor p {
+	left: 15%;
+  }
+
+  .history-info {
+	margin-top: 3%; 
+  }
+  
+  .history-info h3 {
+  	right:10%;
+  }
+  
+  .history-info p {
+  	right:7%;
+  }
+
+  .ending p{
+  	border-bottom: 2px solid grey;
+  	margin-left: 12%;
+  }
+
+
+}
