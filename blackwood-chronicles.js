@@ -1,4 +1,40 @@
 $(function() {
+
+ /* Smooth Scrolling */
+  $('a[href^="#home"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
+
+  $('a[href^="#location"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
+
+  $('a[href^="#npc"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
+
+  $('a[href^="#setting"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
+
+  $('a[href^="#history"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+  });
  
  /* Top Selectors */
  $('.index-list').on('mouseenter', '.index-list-item',function() { 
