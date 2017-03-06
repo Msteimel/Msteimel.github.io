@@ -42,7 +42,7 @@ body {
   position:relative;
   width: 100%;
     height: 1000px;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg);
+  background-image: url(img/Large_bonfire-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -55,7 +55,7 @@ body {
   left:0;
     width: 100%;
     height: 100%;
-  background-image:url(https://upload.wikimedia.org/wikipedia/commons/d/df/Ocean_surface_wave.jpg);
+  background-image:url(img/Ocean_surface_wave.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
