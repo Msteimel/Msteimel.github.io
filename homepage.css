@@ -69,7 +69,7 @@ clip-path: polygon(100% 0, 52% 0, 0 57%, 0 100%);
   bottom:0;  
   width: 100%;
     height: 100%;
-  background-image:url(https://upload.wikimedia.org/wikipedia/commons/6/65/Posts_Brook_from_Norvin_Green_State_Forest_Lower_Trail.jpg);
+  background-image:url(img/Forests-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ clip-path: polygon(100% 0, 100% 53%, 50% 100%, 0 100%);
   bottom:0;
   width: 100%;
     height: 100%;
-  background-image:url(https://theprestemons.files.wordpress.com/2014/03/bahia-honda-1-043.jpg);
+  background-image:url(img/Water-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -163,7 +163,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .about-me {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Thunderstorm_003.jpg);
+	background-image: url(img/Thunderstorm_003-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: 20% 100px;
 	background-size: 650px;
@@ -181,7 +181,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 
 
 .exp {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/Pine_forest_in_Estonia.jpg);
+	background-image: url(img/Pine_forest_in_Estonia-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: 80% 50px;
 	background-size: 650px;
@@ -196,7 +196,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .passion {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg);
+	background-image: url(img/Mount_Everest_as_seen_from_Drukair2_PLW_edit-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 800px;
@@ -311,7 +311,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .contact-background {
-	background-image: url(http://tedandpamela.com/wp-content/uploads/2012/08/Mountain-Trail-in-the-Japan-Alps.jpg);
+	background-image: url(img/Mountain-Trail-in-the-Japan-Alps-compressor.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -456,7 +456,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 /*  Fifth Element Page */
 
 .fifth-element {
-	background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/11081283_2953387591769_116069978463568782_n.jpg?oh=94ea5eae99c61f541c4d9624e90a6dc2&oe=5944B434);
+	background-image: url(img/5th Element.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top center;
