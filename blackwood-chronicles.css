@@ -471,6 +471,17 @@ hr {
   .history-info p {
    right:15%;
   }
+	
+  .ending p {
+  font-size: 1.5em;
+  margin-bottom:1%;
+  left: -5%;
+}
+
+.sub-ending {
+	font-size: .1em;
+	margin-top:-1%;
+}
 
 }
 
