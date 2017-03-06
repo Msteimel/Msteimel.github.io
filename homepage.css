@@ -42,7 +42,7 @@ body {
   position:relative;
   width: 100%;
     height: 1000px;
-  background-image: url(img/Large_bonfire-compressor.jpg);
+  background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/Large_bonfire-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -55,7 +55,7 @@ body {
   left:0;
     width: 100%;
     height: 100%;
-  background-image:url(img/Ocean_surface_wave.jpg);
+  background-image:url(https://raw.githubusercontent.com/Msteimel/img/master/Ocean_surface_wave.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -69,7 +69,7 @@ clip-path: polygon(100% 0, 52% 0, 0 57%, 0 100%);
   bottom:0;  
   width: 100%;
     height: 100%;
-  background-image:url(img/Forests-compressor.jpg);
+  background-image:url(https://raw.githubusercontent.com/Msteimel/img/master/Forests-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ clip-path: polygon(100% 0, 100% 53%, 50% 100%, 0 100%);
   bottom:0;
   width: 100%;
     height: 100%;
-  background-image:url(img/Water-compressor.jpg);
+  background-image:url(https://raw.githubusercontent.com/Msteimel/img/master/Water-compressor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -163,7 +163,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .about-me {
-	background-image: url(img/Thunderstorm_003-compressor.jpg);
+	background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/Thunderstorm_003-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: 20% 100px;
 	background-size: 650px;
@@ -181,7 +181,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 
 
 .exp {
-	background-image: url(img/Pine_forest_in_Estonia-compressor.jpg);
+	background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/Pine_forest_in_Estonia-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: 80% 50px;
 	background-size: 650px;
@@ -196,7 +196,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .passion {
-	background-image: url(img/Mount_Everest_as_seen_from_Drukair2_PLW_edit-compressor.jpg);
+	background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/Mount_Everest_as_seen_from_Drukair2_PLW_edit-compressor.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 800px;
@@ -311,7 +311,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 .contact-background {
-	background-image: url(img/Mountain-Trail-in-the-Japan-Alps-compressor.jpg);
+	background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/Mountain-Trail-in-the-Japan-Alps-compressor.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -456,7 +456,7 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 /*  Fifth Element Page */
 
 .fifth-element {
-	background-image: url(img/5th Element.jpg);
+	background-image: url(https://raw.githubusercontent.com/Msteimel/img/master/5th%20Element.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:top center;
