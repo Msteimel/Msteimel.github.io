@@ -17,6 +17,13 @@ $('a[href^="#story"]').click(function(e) {
     }, 500);
 });
 
+$('a[href^="#projects"]').click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
 /**
  *  Scroll window to an element
  */
