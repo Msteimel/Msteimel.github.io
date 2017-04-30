@@ -151,7 +151,8 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 }
 
 #skillz {
-color:white;
+	margin-bottom:5%;
+	color:white;
 }
 
 #html, #css, #jquery, #javascript {
