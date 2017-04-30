@@ -150,6 +150,36 @@ clip-path: polygon(100% 52%, 49% 100%, 100% 100%);
 	left: -2%;
 }
 
+#html, #css, #jquery, #javascript, #bootstrap, #cmd, #php, #wordpress,
+#creative, #angular {
+	color: white;
+}
+
+
+#html, #css, #jquery, #javascript {
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+#bootstrap {
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#cmd {
+	font-family: "Courier New", Courier, monospace;
+}
+
+#php {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#wordpress, #creative {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#angular {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 #story {
 	color: hsla(254, 51%, 95%, 1);
 	padding-bottom: 20px;
