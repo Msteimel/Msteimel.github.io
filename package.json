@@ -1,0 +1,19 @@
+{
+  "name": "msteimel-github",
+  "version": "1.0.0",
+  "description": "taking all my practice and putting it online",
+  "main": "homepage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Msteimel/Msteimel.github.io.git"
+  },
+  "author": "Mitch Steimel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Msteimel/Msteimel.github.io/issues"
+  },
+  "homepage": "https://github.com/Msteimel/Msteimel.github.io#readme"
+}
