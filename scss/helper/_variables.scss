@@ -1,0 +1,84 @@
+
+/*================================================
+				// Color Variables
+==================================================*/
+// Constant
+$black: #333;
+$white: #fff;
+
+// site colors
+$blue-100: #EDF9FC;
+$blue-300: #D1F4FA;
+$blue-500: #53CDE2;
+$blue-700: #005792;
+$blue-900: #003559;
+
+/*================================================
+				// Site Styles
+==================================================*/
+$pirmary-color: $blue-500;
+$secondary-color: $blue-700;
+$link-color: $blue-500;
+
+$nav-link: $white;
+
+$color-h1: $blue-900;
+$color-h2: $black;
+$color-h3: $blue-700;
+$color-h4: $blue-900;
+$color-h5: $black;
+$color-h6: $blue-700;
+
+/*================================================
+					Breakpoints
+==================================================*/
+$sm: 350;
+$mp: 479;
+$ml: 667;
+$tp: 800;
+$tl: 1100;
+$dk: 1101;
+$lg: 1901;
+
+
+/*================================================
+				// Grid column variables
+==================================================*/
+
+$grid: 12;
+$grid-css: 12;
+$grid-css-row: 100;
+
+/*================================================
+				// Typography variables
+==================================================*/
+
+$line-height: 1.6;
+
+// sets font-size range
+$em-base: 16;
+$em-base-max: 20;
+
+
+/*================================================
+	// Component Spacing
+==================================================*/
+
+$spacing-large: 64;
+$spacing-med: 32;
+$spacing-small: 16;
+
+
+/*================================================
+				// Responsive units
+==================================================*/
+
+// min-vw and max-vw for fluid font size
+$min-viewport: ($ml / 16) * 1em;
+$max-viewport: ($dk / 16) * 1em;
+
+// // min and max font size for fluid font
+$min-font: ($em-base / 16) * 1em;
+$max-font: ($em-base-max / 16) * 1em;
+
+

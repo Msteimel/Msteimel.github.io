@@ -1,0 +1,59 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+	font-family: "Bluu Next";
+	src: url(/project-1/assets/bluunext.woff2), url(/project-1/assets/bluunext.woff);
+}
+
+@font-face {
+	font-family: "imb";
+	src: url(/project-2/assets/ibm-plex-mono.woff2), url(/project-2/assets/ibm-plex-mono.woff);
+}
+
+@font-face {
+	font-family: "Young Serif";
+	src: url(/project-2/assets/youngserif.woff2), url(/project-2/assets/youngserif.woff);
+}
+
+@font-face {
+	font-family: "Faune";
+	font-weight: 400;
+	src: url(/project-3/assets/faune-regular.woff2), url(/project-3/assets/faune-regular.woff);
+}
+
+@font-face {
+	font-family: "Faune";
+	font-weight: 400;
+	font-style: italic;
+	src: url(/project-3/assets/faune-italic.woff2), url(/project-3/assets/faune-italic.woff);
+}
+
+@font-face {
+	font-family: "Faune";
+	font-weight: 700;
+	src: url(/project-3/assets/faune-bold.woff2), url(/project-3/assets/faune-bold.woff);
+}
+
+@font-face {
+	font-family: "hk-grotesk";
+	font-weight: 400;
+	src: url(/project-4/assets/hk-grotesk.woff2), url(/project-4/assets/hk-grotesk.woff);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,900i');
+
+@font-face {
+	font-family: "Syne";
+	src: url(/project-6/assets/syne-regular.woff2), url(/project-6/assets/syne-regular.woff);
+}
+
+@font-face {
+	font-family: "Syne-extra";
+	src: url(/project-6/assets/syne-extra.woff2), url(/project-6/assets/syne-extra.woff);
+}
+
